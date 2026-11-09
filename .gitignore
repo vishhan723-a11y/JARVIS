@@ -1,0 +1,21 @@
+# Secrets - never upload these
+.env
+.dev.vars
+*.keystore
+*.jks
+local.properties
+secrets.properties
+
+# Android build output
+build/
+.gradle/
+.idea/
+*.apk
+*.aab
+
+# Cloudflare
+.wrangler/
+node_modules/
+
+# OS files
+.DS_Store
